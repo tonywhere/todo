@@ -24,6 +24,7 @@ const routes = [
 
 const router = new VueRouter({
     routes,
+    linkActiveClass:'active',
     mode: 'history' // 修改成history 模式
 })
 
