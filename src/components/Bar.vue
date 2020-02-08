@@ -1,5 +1,7 @@
 <template>
-  <div>bar=================</div>
+  <div>
+    <el-page-header @back="$router.go(-1)" content="BAR"></el-page-header>
+  </div>
 </template>
 
 <script>
